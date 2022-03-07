@@ -1,0 +1,23 @@
+body{
+    background-color: hsl(197, 62%, 77%);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+p{
+    color:#333 ;
+    font-size:18px;
+    text-align:justify;
+}
+h1{
+    color: #000080
+}
+
+li{
+    color: #feb236;
+    list-style: square;
+
+}
+span{
+    color: #000080;
+    font-size: 20px;
+}

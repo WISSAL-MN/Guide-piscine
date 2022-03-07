@@ -1,0 +1,24 @@
+div{
+    text-align: center;
+    border-radius: 50px  ;
+    border: 2px solid white;
+    background: linear-gradient( to bottom right, #94b6ca,white );
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: left;
+    padding-left: 40px;
+    height: 600px;
+    width: 400px;
+}
+body{
+
+    background: #abcbdd;
+    text-align: center;
+}
+
+.error
+{
+    color: crimson;
+    font-size: 1.1rem;
+}
+ 

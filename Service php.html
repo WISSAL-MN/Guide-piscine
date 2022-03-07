@@ -1,0 +1,101 @@
+
+<!DOCTYPE HTML>  
+ <html>
+  <head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Quel moment vous-convient le mieux ?</title>
+    <link rel="stylesheet" href="Service php.css">
+   
+  </head>
+  <body>  
+
+    <h1 style="color: #000033;">
+      Quel moment vous-convient le mieux ?
+    </h1>
+    <h3 style="color: #000033;">
+      Laissez-nous vos informations et nous pouvons prendre contact avec-vous de la façon qui vous convient,au moment de votre choix
+    </h3>
+    <h5 style="color: black;">
+      Pour nous contacter merci se remplir le formulaire ci-dessous.Nos équipes reviendrons vers vous des que possible
+    </h5>
+    
+    <div>
+      <p>
+        <span class="error">
+          * champs requis
+        </span>
+      </p>
+      <form method="post" >  
+        Nom:<br>
+        <input type="text" name="name">
+       <span class="error">* <?php echo $nameErr;?></span>
+       <br><br>
+        Prénom: <br>
+        <input type="text" name="name">
+        <span class="error">* <?php echo $emailErr;?></span>
+        <br><br>
+        Couriel:<br>
+        <input type="text" name="email">
+        <span class="error">* <?php echo $CourielErr;?></span>
+        <br><br>
+        Téléphone:<br>
+         <input type="text" name="Téléphone">
+        <span class="error">* <?php echo $TéléphoneErr;?></span>
+        <br><br>
+        comment souhaitez-vous être contactez?: 
+        <br><br>
+        <input type="checkbox" name="name">Couriel
+         <br><br>
+        <input type="checkbox" name="name">Téléphone
+        <span class="error">* <?php echo $comment souhaitez-vous être contactez?Err;?></span>
+        <br><br>
+        comment souhaitez-vous être contactez?: 
+        <br><br>
+        <input type="checkbox" name="name">Avant-midi
+        <br><br>
+        <input type="checkbox" name="name">Après-midi
+        <br><br>
+        <input type="checkbox" name="name">Soirée
+        <span class="error">* <?php echo $comment souhaitez-vous être contactez?Err;?></span>
+        <br><br>
+        Message:
+        <br> <br>
+         <textarea name="comment" rows="5" cols="40"></textarea> 
+         <span class="error">* <?MessageErr;?></span>
+   
+        <br><br>
+         Gender:
+         <br> <br>
+         <input type="radio" name="gender" value="female">Femme
+         <br><br>
+          <input type="radio" name="gender" value="male">Homme
+          <br><br>
+          <input type="radio" name="gender" value="other">Autre
+           <span class="error">* <?php echo $genderErr;?></span>
+         <br><br>
+         <input type="checkbox" name="name"> 
+         En soumettant ce formulaire j'accepte de recevoir des communication par e-mail ou par téléphone
+         <span class="error">* <?En soumettant ce formulaire j'accepte de recevoir des communication par e-mail ou par téléphoneErr;?></span>
+         <br><br>
+         <button type="text"name="name"value="envoyer ma demande" > envoyer ma demande</button>
+         <span class="error">* <?remplisser le formulaire d'abordErr;?></span>
+
+         
+         <button type="reset" style=" border-radius: 50px  ;
+         border: 2px solid white;
+         text-align: center;
+         height: 60px;
+         width: 190px;
+         color: #000033;
+         font-size: 1.2rem;" > réinitialiser</button>
+         <br><br>
+       </form>
+    </div>
+   
+
+
+
+  </body>
+</html>

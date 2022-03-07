@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>  
+ <html>
+  <head>
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> REJOINEZ-NOUS</title>
+    <link rel="stylesheet" href="REJOINEZ-NOUS.css">
+   
+  </head>
+  <body>  
+    <h3 style="color: #000033;margin-right: 128px;
+    margin-top: 56px;
+    margin-bottom: 50px;
+    font-size: 2.5rem;">
+        Le moment est venu d'atteindre vos objectifs !
+    </h3>
+    <div>
+      <p>
+        <span class="error">
+          * champs requis
+        </span>
+      </p>
+      <form method="post"style="font-size: 1.23rem;" >  
+        Nom:<br>
+        <input type="text" name="name">
+       <span class="error">* <?php echo $nameErr;?></span>
+       <br><br>
+        Prénom: <br>
+        <input type="text" name="name">
+        <span class="error">* <?php echo $emailErr;?></span>
+        <br><br>
+        Couriel:<br>
+        <input type="text" name="email">
+        <span class="error">* <?php echo $CourielErr;?></span>
+        <br><br>
+        La quelle se ces phrases vous présente le mieux : <br>
+        <select style="height: 30px;    width: 185px;">
+            <option value="fait un seule choix">fait un seule choix</option>
+            <option value="- Je suis de nature curieux (se) et je cherche toujours à apprendre!">- Je suis de nature curieux(se)et je cherche toujours à apprendre!</option>
+            <option value="- Je sais ce que je vise à accomplir , mais j'ai besoin d'aide.">- Je sais ce que je vise à accomplir , mais j'ai besoin d'aide.</option>
+            <option value="- Je suis plutot orienté vers les résultat.La façon d'y arriver m'importe peu">- Je suis plutot orienté vers les résultat.La façon d'y arriver m'importe peu</option>
+        </select>
+        <span class="error">* <?php echo $choixErr;?></span>
+         <br> <br>
+         Gender:
+         <br> <br>
+         <input type="radio" name="gender" value="female">Femme
+         <br><br>
+          <input type="radio" name="gender" value="male">Homme
+         <span class="error">* <?php echo $genderErr;?></span>
+         <br><br>
+         <br><br>
+         <button type="reset" style=" border-radius: 50px  ;
+         border: 2px solid #403939;
+         text-align: center;
+         height: 60px;
+         width: 329px;
+         color: #000033;
+         font-size: 1.2rem;" > S'inscrire</button>
+         <br><br>
+       </form>
+    </div>
+  </body>
+</html>

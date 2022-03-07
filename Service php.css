@@ -1,0 +1,29 @@
+div{
+    text-align: center;
+    border-radius: 50px  ;
+    border: 2px solid white;
+    background: linear-gradient(to top left, #33ccff 0%, #ff99cc 100%);
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: left;
+    padding-left: 40px;
+}
+body{
+
+    background: linear-gradient(to bottom right, #3399ff 0%, #cc99ff 100%);
+    text-align: center;
+}
+button{
+    border-radius: 50px  ;
+    border: 2px solid white;
+    text-align: center;
+    height: 60px;
+    width: 260px;
+    color: #000033;
+    font-size: 1.2rem;
+  }
+  .error
+   {
+       color: #DC143C;
+    }
+ 

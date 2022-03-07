@@ -1,0 +1,22 @@
+body{
+    background-color: hsl(197, 62%, 77%);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+p{
+    color:#333 ;
+    font-size:18px;
+    text-align:justify;
+}
+h1{
+    color: #000080
+}
+li{
+    color: #610725;
+     list-style: square;
+}
+a{
+    color: #cc3333;
+    text-decoration: none;
+    font-size: 20px;
+}

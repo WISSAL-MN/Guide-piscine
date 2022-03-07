@@ -1,0 +1,33 @@
+body{
+  background-color: hsl(197, 62%, 77%);
+  margin-left: 50px;
+  margin-right: 50px;
+}
+p{
+  color:#333 ;
+  font-size:18px;
+  text-align:justify;
+}
+h1{
+  color: #000080
+}
+  li{
+    color: #FFA500;
+    list-style: square;
+}
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
