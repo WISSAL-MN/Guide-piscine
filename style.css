@@ -1,25 +1,76 @@
-h1{
-    color: #333;
+* {
+    box-sizing: border-box;
 }
-input{
-    border: 3px solid black;
-    border-radius: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top:10px;
-    padding-bottom:10px ;
-    text-align:left;
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../font/Poppins-Black.ttf);
 }
-div{
-    border: 3px solid black;
-    border-radius: 10px;
-    padding-left:30px;
-    padding-right: 50px;
-    padding-top:10px;
-    padding-bottom:100px ;
-    text-align:left;
-    color: gray;
-    background-color: white;
-    margin-right: 600px;
-     
+
+body {
+    margin: 50px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #212529;
+    text-align: justify;
+    background-color: hsl(197, 62%, 77%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    margin-bottom: .5rem;
+    font-family: "Poppins";
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h1 {
+    color:#000890;
+    padding-bottom: 20px;
+}
+
+h4,
+h3 {
+    color: #000080;
+}
+
+p {
+    color: #333 !important;
+    font-size: 27px !important;
+    text-align: justify !important;
+}
+
+/* -------------------------------------Accessoires d'aquagym-------------------------------------- */
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+td,
+th {
+    border: 3px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #e9e8e8;
+}
+
+ul li strong{
+    color:#000890;
 }

@@ -1,0 +1,18 @@
+body{
+    background-color: hsl(197,62%,77%);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+p{
+    color: #333;
+    font-size: 27px;
+    text-align: justify;
+}
+h1{
+    color: #000890;
+}
+ul{
+    list-style-type: square;
+    font-size: 18px;
+    color:#000890;
+}
